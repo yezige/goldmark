@@ -1,3 +1,3 @@
-module github.com/yuin/goldmark
+module github.com/yezige/goldmark
 
 go 1.18
