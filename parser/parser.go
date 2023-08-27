@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/yezige/goldmark/ast"
+	"github.com/yezige/goldmark/text"
+	"github.com/yezige/goldmark/util"
 )
 
 // A Reference interface represents a link reference in Markdown text.

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/yuin/goldmark/util"
+	"github.com/yezige/goldmark/util"
 )
 
 var space = []byte(" ")

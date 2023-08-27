@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/yuin/goldmark"
-	gast "github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/extension/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/yezige/goldmark"
+	gast "github.com/yezige/goldmark/ast"
+	"github.com/yezige/goldmark/extension/ast"
+	"github.com/yezige/goldmark/parser"
+	"github.com/yezige/goldmark/renderer"
+	"github.com/yezige/goldmark/renderer/html"
+	"github.com/yezige/goldmark/text"
+	"github.com/yezige/goldmark/util"
 )
 
 var escapedPipeCellListKey = parser.NewContextKey()

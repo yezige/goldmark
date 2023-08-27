@@ -1,7 +1,7 @@
 package extension
 
 import (
-	"github.com/yuin/goldmark"
+	"github.com/yezige/goldmark"
 )
 
 type gfm struct {
