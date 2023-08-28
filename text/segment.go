@@ -158,12 +158,7 @@ func NewSegments() *Segments {
 // Append appends the given segment after the tail of the collection.
 func (s *Segments) Append(t Segment) {
 	if s.values == nil {
-		var bufPool = sync.Pool{
-			New: func() interface{} {
-				return make([]Segment, 0, 20)
-			},
-		}
-		s.values = bufPool.Get().([]Segment)
+		s.values = make([]Segment, 0, 2)
 	}
 	s.values = append(s.values, t)
 }
@@ -171,7 +166,7 @@ func (s *Segments) Append(t Segment) {
 // AppendAll appends all elements of given segments after the tail of the collection.
 func (s *Segments) AppendAll(t []Segment) {
 	if s.values == nil {
-		s.values = make([]Segment, 0, 20)
+		s.values = make([]Segment, 0, 2)
 	}
 	s.values = append(s.values, t...)
 }
