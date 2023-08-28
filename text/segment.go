@@ -2,7 +2,6 @@ package text
 
 import (
 	"bytes"
-	"sync"
 
 	"github.com/yezige/goldmark/util"
 )
